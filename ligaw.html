@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Love Story</title>
+  <link rel="stylesheet" href="ligaw.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Hero Section with Video Background -->
+  <section class="hero">
+    <video autoplay muted loop class="background-video">
+      <source src="3d4e45c2-3338-4a41-9714-eb38f3844e21.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-content">
+      <h1>Our Love Story</h1>
+      <p class="anniversary">Together since August 9, 2022</p>
+      <div class="scroll-indicator">↓ Scroll to Explore Our Journey ↓</div>
+    </div>
+  </section>
+
+  <!-- Timeline Navigation -->
+  <nav class="timeline-nav">
+    <button onclick="scrollToSection('firstMeet')">First Meet</button>
+    <button onclick="scrollToSection('firstDance')">First Dance</button>
+    <button onclick="scrollToSection('firstFlowers')">First Flowers</button>
+    <button onclick="scrollToSection('firstCrochet')">Crochet Flowers</button>
+
+    <button onclick="scrollToSection('specialMoments')">Special Moments</button>
+
+  </nav>
+
+  <!-- Memory Timeline -->
+  <section class="timeline">
+
+    <!-- First Meet (with Polaroid Image) -->
+    <div class="memory" id="firstMeet">
+      <!-- Text Content -->
+      <div class="memory-card left">
+        <h2>August 9, 2022</h2>
+        <h3>The Day We First Met</h3>
+        <p>Bandang after lunch nung nakita ko ung friend request mo, syempre tiningnan ko muna stalk pagtingin ko sa profile wala patay nanaman susubok nanaman ang puso na magmahal, nagsungit pa ko that time pero nung tumagal under na sayo pero kakakilala lng natin naguupdate na agad ako sayo with pics pa nagulat ka pa nga and niyaya mo ko lumabas the other day thats august 10, 2022 sa waltermart guiguinto sa foodcourt nakadress ka non so ang official meet natin is august 10, 2022 at don na din ako umamin that day na gusto kita ligawan at pumayag ka nmn our story starts here</p>
+        <div class="tags">
+          <span>Nervous</span>
+          <span>Excited</span>
+        </div>
+        <p class="location">📍 Robinsons Park Malolos, Bulacan</p>
+      </div>
+
+      <!-- Polaroid Photo -->
+      <div class="memory-card-image right">
+        <div class="polaroid">
+          <img src="first meetpic.jfif" alt="First Meet Picture" />
+          <div class="caption">First Meet ❤️</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- First Dance -->
+<div class="memory" id="firstDance">
+  <!-- Image First -->
+  <div class="memory-card-image left">
+    <div class="polaroid">
+      <img src="first dance.jpeg" alt="First Dance" />
+      <div class="caption">Our First Dance 💃🕺</div>
+    </div>
+  </div>
+  <!-- Text Right -->
+  <div class="memory-card right">
+    <h2>February 19, 2023</h2>
+    <h3>Our First Dance</h3>
+    <p>It was a night to remember — the music, the lights, and the way you smiled at me while we danced. It felt like time froze, and for that moment, the whole world disappeared. Just you and me, holding on tight. Eto ung debut mo nung una ayw mo magdebut kase magastos pero biglaan nagbago isip mo kaya mejo nagahol tayo pero kahit ganon nagtulungan tayo sa preparation and worth it lahat that night was our first dance ako ung pinakauna kaya intro pa lng papasok pa lng ako marami ng tumitili lalo na nung naghandshake tayo daming kinilig kahit ako till now kinikilig pa din sabi pa nung host satin may kilig factor daw </p>
+    <div class="tags">
+      <span>Unforgettable</span>
+      <span>Romantic</span>
+    </div>
+    <p class="location">📍Santol Balagtas, Bulacan</p>
+  </div>
+</div>
+
+<!-- First Time I Gave You Flowers -->
+<div class="memory" id="firstFlowers">
+  <!-- Text Left -->
+  <div class="memory-card left">
+    <h2>October 12, 2022</h2>
+    <h3>The First Time I Gave You Flowers</h3>
+    <p>I was so nervous walking toward you with that bouquet in my hands. I remember how your eyes lit up and how shy you became. That moment was priceless — it felt like I was giving my heart along with those flowers. Eto nmn ung gabi na may event kayo sa school inantay kita habang naghihintay ako naglakad ako papuntang bayan ng malolos para bilhan ka nyan nakita ko kung gaano mo naappreciate yan</p>
+    <div class="tags">
+      <span>Sweet</span>
+      <span>Emotional</span>
+    </div>
+    <p class="location">📍 Highway of Malolos Bulacan</p>
+  </div>
+
+  <!-- Image Right -->
+  <div class="memory-card-image right">
+    <div class="polaroid">
+      <img src="first flowers.jfif" alt="First Time I Gave You Flowers" />
+      <div class="caption">First Flowers for You 🌹</div>
+    </div>
+  </div>
+</div>
+
+<!-- First Crochet Flowers -->
+<div class="memory" id="firstCrochet">
+  <!-- Text Left -->
+  <div class="memory-card right">
+    <h2>February 15, 2023</h2>
+    <h3>The First Crochet Flowers You Made</h3>
+    <p>I never thought yarn and thread could carry so much love. When I handed you those handmade crochet flowers, you felt how much effort and care I put into every loop and knot. It wasn’t just a gift—it was a piece of your heart stitched together. Yan ung lagi ako sayo late magbih=gay ng gift kase d mo alam na yan pala ung ginagawa ko</p>
+    <div class="tags">
+      <span>Handmade</span>
+      <span>Heartfelt</span>
+    </div>
+    <p class="location">📍Malolos Capitol </p>
+  </div>
+
+  <!-- Image Right -->
+  <div class="memory-card-image left">
+    <div class="polaroid">
+      <img src="first crochet.jfif" alt="First Crochet Flowers" />
+      <div class="caption">Your Crochet Flowers 🧶🌸</div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Our First Kiss -->
+<div class="memory" id="firstKiss">
+  <!-- Text Left -->
+  <div class="memory-card left">
+    <h2>December 24, 2022</h2>
+    <h3>Our First Kiss</h3>
+    <p>That moment under the lights — you leaned in, I leaned closer. Time froze. It was soft, warm, and unforgettable. I knew then that this love was something real, something forever.</p>
+    <div class="tags">
+      <span>Unforgettable</span>
+      <span>Romantic</span>
+    </div>
+    <p class="location">📍 Waltermart, Guiguinto</p>
+  </div>
+
+  <!-- Video Right -->
+  <div class="memory-card-image right">
+    <div class="polaroid">
+      <video controls class="video-polaroid">
+        <source src="first kiss.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="caption">Our First Kiss 💋</div>
+    </div>
+  </div>
+</div>
+
+  </section>
+<div class="gallery" id="specialMoments"></div>
+  <div class="gallery-grid">
+  <div class="gallery-item">
+    <img src="received_1256912528280848.jpeg" alt="Memory 1">
+    <span class="caption"></span>
+  </div>
+  <div class="gallery-item">
+    <img src="dbacf43f-95aa-4cc3-9b3b-e916eeaa6217 (1).jfif" alt="Memory 2">
+    <span class="caption"></span>
+  </div>
+  <div class="gallery-item">
+    <img src="69a333e9-e845-4148-a40f-3f6c556fb674.jfif" alt="Memory 3">
+    <span class="caption"></span>
+  </div>
+  <div class="gallery-item">
+    <img src="60e08251-2f8f-4b6f-a8db-09adb4a4cf94.jfif" alt="Memory 4">
+    <span class="caption"></span>
+  </div>
+  <div class="gallery-item">
+    <img src="received_1317161845673452.jpeg" alt="Memory 5">
+    <span class="caption"></span>
+  </div>
+  <div class="gallery-item">
+    <img src="received_1294505734503701.jpeg" alt="Memory 6">
+    <span class="caption"></span>
+  </div>
+  <div class="gallery-item">
+    <img src="received_1439157156920214.jpeg" alt="Memory 7">
+    <span class="caption"></span>
+  </div>
+  <div class="gallery-item">
+    <img src="received_1445877992900585.jpeg" alt="Memory 8">
+    <span class="caption"></span>
+  </div>
+  <div class="gallery-item">
+    <img src="received_232219652949846.jpeg" alt="Memory 9">
+    <span class="caption"></span>
+  </div>
+</div>
+
+
+  <!-- Personal Message -->
+  <section class="personal-message">
+    <h2>Your Love Note</h2>
+    <textarea placeholder="Hi Mahal isa toh sa mga naisip kong way para patunayan sayo ung love ko i want to say sorry for the pain that a i gave to and also for the traumas lahat po pinagsisihan ko na lahat lahat sana po maniwala ka pero buong puso ako humihingi ng tawad sayo lam ng diyos kung gaano ko pinagsisihan lahat ng kamalian ko d ko po minamadali na mapatawad mo ko pero gusto ko na malaman mo na nandto lng ako palagi kang minamahal salamat at d mo ko iniwan kaya siguro eto na ung chance ko para bumawi sa lahat ng pagkukulang ko at baguhin lahat ng mga mali saking sarili eto ung website na gusto ko ipakita sayo buong puso kong ginawa toh para sayo,iintayin kita hanggang sa pagbalik mo gagawin ko lahat para iwinback ka lahat ng mga pinangako ko sayo ayyy tutuparin ko pa rin walang magbabago mas magiging better ako para maging deserving ako sayo sobrangggg mahal na  mahal na mahal na mahal na mahal na mahal kitaaaa sobraa pa sa  sobraaaa d kayang tumbasan ng kahit anmo itong pagmamahal ko para sayo patawarin mo sana ako"></textarea>
+    <div>
+      <button onclick="generateQuote()">💌 Love Quote</button>
+      <span id="quote-output"></span>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>💖 Share Your Love | © 2025 Love Journey | <button onclick="download()">Download</button></p>
+  </footer>
+
+  <script src="ligaw.js"></script>
+</body>
+</html>
